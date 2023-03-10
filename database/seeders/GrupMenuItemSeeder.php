@@ -43,9 +43,9 @@ class GrupMenuItemSeeder extends Seeder
                 'grup_menu_item_id' => 'a7b2e783-8b55-406d-bad0-b81b98553aea',
                 'grup_menu_item_grup_id' => 'a6d315d6-c86d-44c6-bc60-2f6f83c8ce2f',
                 'grup_menu_item_menu_item_id' => 'c9c74676-8338-4da9-8fdd-546c5558eacb',
-                'grup_menu_item_tambah' => 'tidak',
-                'grup_menu_item_ubah' => 'tidak',
-                'grup_menu_item_hapus' => 'tidak'
+                'grup_menu_item_tambah' => 'ya',
+                'grup_menu_item_ubah' => 'ya',
+                'grup_menu_item_hapus' => 'ya'
             ],
             [
                 'grup_menu_item_id' => '86ab40ab-5f2b-4408-886c-cfc0646e8ace',
