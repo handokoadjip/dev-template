@@ -12,7 +12,9 @@
                     <!-- ------------------------------------------------ -->
                     <!-- Cek apakah pengguna dapat akses menu -->
                     <!-- ------------------------------------------------ -->
+                    @if(PermissionMenu()[0]->grups[0]->pivot->grup_menu_item_tambah == 'ya')
                     <a class="btn btn-success waitme" href="{{ route('unit-kerja.create') }}">Tambah Unit Kerja</a>
+                    @endif
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
